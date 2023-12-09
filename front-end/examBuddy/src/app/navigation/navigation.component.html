@@ -1,10 +1,16 @@
+<!-- Add this inside your existing navigation.component.html -->
 <nav class="navbar">
-    <div class="navbar-brand">Exam Buddy</div>
-    <div class="nav-items">
-      <a class="nav-item" routerLink="/">Home</a>
-      <a class="nav-item" routerLink="/about">About</a>
-      <a class="nav-item" routerLink="/past-papers">Past Papers</a>
-      <a class="nav-item" routerLink="/contact">Contact</a>
-    </div>
-  </nav>
+  <div class="navbar-brand">Exam Buddy</div>
+  <div class="nav-items">
+    <a class="nav-item" routerLink="/">Home</a>
+    <a class="nav-item" routerLink="/about">About</a>
+    <a class="nav-item" routerLink="/past-papers">Past Papers</a>
+    <a class="nav-item" routerLink="/contact">Contact</a>
+    <!-- Add login and logout links -->
+    <a class="nav-item" routerLink="/login">Log In</a>
+    <!-- The Log Out button can be shown conditionally based on authentication status -->
+    <button class="nav-item log-out-btn" (click)="logout()" *ngIf="isLoggedIn">Log Out</button>
+  </div>
+</nav>
+
   

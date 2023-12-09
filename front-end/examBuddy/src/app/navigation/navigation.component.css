@@ -52,3 +52,29 @@
         font-size: 1.25em; /* Ensure font size is maintained on small screens */
     }
 }
+/* Add this to your existing navigation.component.css */
+/* ... existing styles ... */
+
+.log-out-btn {
+    background: none; /* No background for a button that looks like a link */
+    border: none; /* No border */
+    padding: 15px 20px;
+    font-size: 1.25em;
+    cursor: pointer;
+  }
+  
+  .log-out-btn:hover {
+    background-color: #5D93E1; /* Hover state similar to other nav items */
+    color: #fff;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    /* ... existing styles ... */
+    
+    .log-out-btn {
+      width: 100%; /* Full width for consistency on small screens */
+      text-align: center;
+    }
+  }
+  
