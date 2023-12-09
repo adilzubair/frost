@@ -19,6 +19,7 @@ import { AboutComponent } from './about/about.component';
 import { PastPapersComponent } from './past-papers/past-papers.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
+import { IntroSectionComponent } from './intro-section/intro-section.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { LoginComponent } from './login/login.component';
     AboutComponent,
     PastPapersComponent,
     ContactComponent,
-    LoginComponent
+    LoginComponent,
+    IntroSectionComponent
   ],
   imports: [
     BrowserModule,

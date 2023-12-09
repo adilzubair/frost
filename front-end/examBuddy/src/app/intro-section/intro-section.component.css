@@ -1,0 +1,42 @@
+/* intro-section.component.css */
+.intro-container {
+    text-align: center;
+    color: #ffffff; /* Light text color */
+    background-color: #161266; /* Deep purple background similar to the image */
+    padding: 10vh 20px; /* Top and bottom padding based on viewport height */
+    height: 70vh; /* 70% of the viewport height */
+    
+    margin-bottom: 30px; /* Space before the next component */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+  }
+  
+  .intro-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .intro-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .join-btn {
+    padding: 10px 25px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #ff6b6b; /* Bright color for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 234px;
+    margin-left: 630px;
+  }
+  
+  .join-btn:hover {
+    background-color: #ff4757; /* Darker shade on hover */
+  }
+  
